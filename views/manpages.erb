@@ -1,0 +1,22 @@
+<%= `man #{@manpages}` %>
+<% if @cd %>
+<%= `man cd` %>
+
+<% elsif @mkdir %>
+<%= 'man mkdir' %>
+
+<% elsif @touch %>
+<%= `man touch` %>
+
+<% elsif @pwd %>
+<%= `man pwd` %>
+
+<% elsif @ls %>
+<%= `man ls` %>
+<% end %>
+<br/>
+<br/>
+
+<a href="/">Home</a>
+<a href="/command_line">Command Line</a>
+<a href="/search">Search ManPages</a>

@@ -1,0 +1,39 @@
+body {
+  background-color: #1c1d1a;
+}
+h1 {
+  border-bottom: 2px solid #a2a3a7;
+  color: #a09fc8;
+}
+
+ul {
+  list-style: none;
+  font-size: 30px;
+  border-bottom: 2px solid #a2a3a7;
+  padding-bottom: 25px;
+}
+
+a {
+  color: #57a4a0;
+}
+
+a:hover {
+  color: #8fe8f1;
+}
+
+.bottom a {
+  color: #2eb382;
+  margin-right: 50px;
+}
+
+.bottom a:hover {
+  color: #96f0cf;
+}
+
+.txt {
+  margin: 10px 8px 20px 50px;
+  border: 1px solid  #96f0cf;
+  border-radius: 10%;
+  width: 100px;
+  height: 40px;
+}
